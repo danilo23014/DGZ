@@ -1,7 +1,7 @@
 Algoritmo diaDeLaSemana
 	Escribir "Este programa te dice el dia de la semana segun el valor que ingreses"
 	Escribir "Ingresa un numero entre en 1 y el 7:"
-	Definir numero_de_dia Como Entero
+	
 	Repetir
 		Leer numero_de_dia;
 		si numero_de_dia < 1 o numero_de_dia > 7 Entonces
@@ -13,7 +13,7 @@ Algoritmo diaDeLaSemana
 		Imprimir "Es lunes... ay no otra vez."
 	SiNo
 		si numero_de_dia == 2 Entonces
-			Imprimir "Es martes, no te cases no te embarques ni de tu casa te apartes."
+			
 		SiNo
 			si numero_de_dia == 3 Entonces
 				Imprimir "Es miercoles, mitad de semana."
